@@ -9,7 +9,7 @@ object feroz {
   method estaSaludable() = peso >= 20 && peso <= 150
    
 
-  method comerAlimento(alimento) {
+  method comer(alimento) {
     peso += alimento.peso() * 0.10
   }  
 

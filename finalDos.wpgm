@@ -1,0 +1,30 @@
+import abuelita.*
+import caperucita.*
+import cazador.*
+import feroz.*
+
+
+program elLoboFerozFinalDos {
+    console.println("La historia comienza con Feroz, un lobo muy hambriento que corre hacia el bosque en busca de comida.")
+    feroz.correr()
+
+    console.println("Mientras corre por el bosque, Feroz se encuentra con Caperucita, conversan un rato pero no pasa nada más.")
+    feroz.correr()
+
+    console.println("Feroz corre a la casa de abuelita y se la come. Luego se disfraza de ella para engañar a Caperucita.")
+    feroz.correr()
+    feroz.comer(abuelita)
+
+    console.println("Mientras tanto, Caperucita cruza el bosque y se le cae una manzana de su canasta.")
+    caperucita.perderManzana()
+
+    console.println("Cuando feroz ve llegar a Caperucita a la casa, molesto por las preguntas incisivas sobre su aspecto físico, abre grande su boca y se come a Caperucita con canasta llena y todo.")
+    feroz.comer(caperucita)
+
+    console.println("De pronto llega el cazador, con su escopeta bien cargada. Sin dudarlo, le dispara a Feroz provocándole una fuerte crisis")
+    cazador.dispararAFeroz()
+
+    console.println("El cazador, victorioso, se alejó del bosque dejando a Feroz débil y desorientado crisis.")
+    console.println("Peso final de Feroz:" + feroz.peso())
+    console.println("¿Feroz está saludable?" + feroz.estaSaludable())  
+}

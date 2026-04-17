@@ -8,6 +8,10 @@ object cazador {
 
     method estaArmado() = escopetaCargada
 
+    method escopetaDescargada() {
+        escopetaCargada = false
+    }
+
     method dispararAFeroz() {
         escopetaCargada = false
         feroz.crisis()
