@@ -6,8 +6,6 @@ object cazador {
 
     method peso() = peso 
 
-    method estaArmado() = escopetaCargada
-
     method escopetaDescargada() {
         escopetaCargada = false
     }
